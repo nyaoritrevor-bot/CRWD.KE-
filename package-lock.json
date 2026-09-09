@@ -12,7 +12,6 @@
         "packages/*"
       ],
       "devDependencies": {
-        "@tailwindcss/oxide-win32-x64-msvc": "^4.3.3",
         "prettier": "^3.4.2"
       },
       "engines": {
@@ -48,11 +47,9 @@
         "@types/react-dom": "^19",
         "eslint": "^9",
         "eslint-config-next": "16.3.0",
+        "lightningcss": "^1.32.0",
         "tailwindcss": "^4",
         "typescript": "^5"
-      },
-      "optionalDependencies": {
-        "lightningcss-win32-x64-msvc": "1.32.0"
       }
     },
     "apps/web/node_modules/@alloc/quick-lru": {
@@ -6337,6 +6334,7 @@
       ],
       "dev": true,
       "license": "MIT",
+      "optional": true,
       "os": [
         "win32"
       ],
@@ -6408,6 +6406,7 @@
       "cpu": [
         "x64"
       ],
+      "dev": true,
       "license": "MPL-2.0",
       "optional": true,
       "os": [
